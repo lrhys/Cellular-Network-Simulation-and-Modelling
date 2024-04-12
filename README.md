@@ -15,20 +15,20 @@ subscriber making a call crosses a cell boundary before the end of the 40-km hig
 
 A Fixed Channel Allocation (FCA) scheme is used. The company wants you to test at least 
 two FCA schemes: 
-i. No channel reservation
-ii. 9 channels are allocated to each cell for new calls and handovers and 1 channel is 
+1. No channel reservation
+2. 9 channels are allocated to each cell for new calls and handovers and 1 channel is 
 reserved for handovers when the other 9 channels are not available. This means a new 
 call will not be allocated a channel if there is only one free channel left. 
 
 ### The company has provided the following measurements:
-i. Call initiation times and their first base stations
-ii. Call durations 
-iii. Car speeds. 
+1. Call initiation times and their first base stations
+2. Call durations 
+3. Car speeds. 
 
 ### Assumptions
-i. The traffic volumes in the two directions are the same. This means the two directions of cars travelling along the highway have equal probabilities. 
-ii. A car maintains the same speed during a call. 
-iii. The position of the car initiating a call in a cell is uniformly distributed along the section of the highway covered by the base station.
+1. The traffic volumes in the two directions are the same. This means the two directions of cars travelling along the highway have equal probabilities. 
+2. A car maintains the same speed during a call. 
+3. The position of the car initiating a call in a cell is uniformly distributed along the section of the highway covered by the base station.
 
 ### Your Tasks
 1. Analyze the measured data to find what distributions the inter-arrival times of calls, the locations where calls are generated, the call durations, and car speeds follow respectively. You also need to find the parameter values of these distributions. (The measured data are provided in the file “PCS_TEST_DETERMINSTIC”)
